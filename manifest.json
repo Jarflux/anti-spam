@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "author": "Ben Oeyen",
+  "name": "Confluence disable notify watchers Plugin",
+  "description": "Uncheck notify watchers checkox when using Confluence editor",
+  "version": "1.0",
+  "browser_action": {
+   "default_icon": "icon.png"
+  },
+  "content_scripts": [
+  {
+    "matches": ["https://*/*"],
+    "js": ["plugin.js"]
+  }]
+}
