@@ -1,8 +1,9 @@
 {
   "manifest_version": 2,
   "author": "Ben Oeyen",
-  "name": "Confluence disable notify watchers Plugin",
-  "description": "Uncheck notify watchers checkox when using Confluence editor",
+  "name": "Confluence Anti-spam",
+  "short_name": "Anti-spam",
+  "description": "Automatically unchecks the 'notify watchers' option in the confluence page editor. Installing this will make you a better person",
   "version": "1.0",
   "browser_action": {
    "default_icon": "icon.png"
